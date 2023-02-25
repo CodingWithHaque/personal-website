@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    font-family: 'Satisfy', cursive;
+}
+
+p {
+    color: dimgray;
+}
+section{
+    padding-bottom: 150px;
+}
+.top-introduction{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    height: 500px;
+    background-size: cover;
+    background-position: left;
+}
+
+.half-width1, .half-width3{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 3%;
+}
+.half-width1 h1{
+    font-size: 40px;
+}
+.top-area-gap{
+    padding-top: 40px;
+}
+.text-orange-color{
+    color: mediumvioletred;
+}
+.hire-button{
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, mediumvioletred, deeppink);
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.half-width2{
+    width: 35%;
+    float: left;
+    margin-right: 10%;
+    padding-right: 3%;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    height: 500px;
+    background-size: cover;
+    background-position: left;
+}
+.half-width2 img{
+    width: 100%;
+}
+.half-width1 img{
+    width: 100%;
+}
+.work-area{
+    padding-top: 50px;
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position-y: -50px;
+}
+
+.work-area h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.work-box{
+    width: 90%;
+    margin: 0 auto;
+}
+.recent-work-box{
+    width: 30%;
+    float: left;
+    padding: 1.5%;
+}
+.recent-work-box img{
+    width: 100%;
+}
+
+.client-area{
+    width: 90%;
+    margin:0 auto;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.client-area-box {
+    margin:0 auto;
+    width: 40%;
+}
+.client-area-box h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+.client-name{
+    width: 100%;
+}
+.client-name h2, .client-name p{
+    text-align: center;
+}
+.client-contact{
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, mediumvioletred, deeppink);
+    font-size: 20px;
+}
+.client-contact p{
+    font-size: 40px;
+    color: white;
+    margin-top: -20px;
+}
+footer{
+    width:90%;
+    margin: 10px auto;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
